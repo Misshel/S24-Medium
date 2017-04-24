@@ -1,0 +1,196 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+#cabecera{
+  margin: 0;
+  margin-top: 14px;
+  margin-left: 17px;
+}
+
+#logo{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 42px;
+  height: 42px;
+}
+
+.logo, .img, .autor, .autorCont{
+  width: 100%;
+  height: 100%;
+}
+
+#raya{
+  display: inline-block;
+  height: 39px;
+  width: 3px;
+  background-color: #80807c;
+  margin: auto 9px;
+}
+
+#img-cont{
+  display: inline-block;
+  box-sizing: border-box;
+  height: 35px;
+  width: 63px;
+}
+
+.redes{
+  position: absolute;
+  display: inline-block;
+  top: 28px;
+  margin: 0;
+  margin-left: 14px;
+  color: #7d7878;
+  font-size: 21px;
+}
+
+span{
+  margin: 5px;
+}
+
+#buscar{
+  display: inline-block;
+  margin-left: 58rem;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+input{
+  border-radius: 11px;
+  width: 75px;
+  padding: 3px;
+}
+
+#num{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #0ea773;
+  width: 25px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 6px;
+  color: white;
+}
+
+#autor{
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50px;
+  width: 34px;
+  height: 31px;
+  margin-left: 7px;
+  margin-bottom: -10px;
+}
+
+/*estilos para el contenido  central  de la pagina */
+
+section{
+  margin: 28px 210px;
+}
+
+#contAutor{
+  display: inline-block;
+  position: relative;
+}
+
+#autorCont{
+  position: relative;
+  display: inline-block;
+  width: 97px;
+  height: 91px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#Info{
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  width: 800px;
+  height: 100px;
+  margin: 0 10px;
+}
+
+.text-autor{
+      display: block;
+}
+
+#text1, #text2{
+  color: #7f8686;
+  font-size: 13px;
+}
+
+h1{
+  font-size: 35px;
+}
+
+p{
+  font-size: 32px;
+font-family: auto;
+}
+
+footer{
+  padding: 10px 0px 10px 213px;
+  border-top: 1px solid;
+  border-color: #cacaca;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+.icon, .iconFinal{
+  font-size: 1.5rem;
+  margin: 14px;
+  color: #8e9494;
+}
+
+.icon-heart:hover {
+color: red;
+}
+
+.icon-bookmark{
+  font-size: 35px;
+  position: relative;
+  top: 5px;
+}
+
+.iconFinal, .raya, .texFinal{
+  display: inline-block;
+}
+
+.raya{
+  width: 3px;
+  height: 28px;
+  position: relative;
+  bottom: -3px;
+  background-color: rgba(224, 224, 224, 0.99);
+}
+
+.iconFinal{
+  margin: 0;
+  margin-left: 600px;
+}
+
+.texFinal{
+  width: 210px;
+  margin-top: 1px;
+  margin-left: 10px;
+  position: absolute;
+  height: 41px;
+  box-sizing: border-box;
+}
+
+.green{
+  display: block;
+  font-size: 11px;
+  color: #2abd7a;
+}
+
+.textFinal{
+  font-size: 15px
+}
